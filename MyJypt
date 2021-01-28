@@ -1,0 +1,50 @@
+{
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": 3
+  },
+  "orig_nbformat": 2
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Python code demonstrate creating\n",
+    "# DataFrame from dict narray / lists\n",
+    "# By default addresses.\n",
+    "\n",
+    "import pandas as pd\n",
+    "\n",
+    "# intialise data of lists.\n",
+    "data = {'Name':['Tom', 'nick', 'krish', 'jack'], 'Age':[20, 21, 19, 18]}\n",
+    "\n",
+    "# Create DataFrame\n",
+    "df = pd.DataFrame(data)\n",
+    "\n",
+    "# Print the output.\n",
+    "df"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ]
+}
